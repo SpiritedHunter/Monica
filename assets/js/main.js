@@ -1,9 +1,5 @@
 /**
-* Template Name: Laura
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+
 */
 (function() {
   "use strict";
@@ -183,7 +179,7 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 8000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',

@@ -427,7 +427,7 @@ section {
 .section-title span {
   position: absolute;
   top: 30px;
-  color: #98e8a2;
+  color: #fffdfd;
   left: 0;
   right: 0;
   z-index: 1;
@@ -596,9 +596,9 @@ section {
 }
 
 .about .image {
-  background: url("../img/moniquita.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 500px;
+  background: url("../img/monifeliz.jpg") center center no-repeat;
+  background-size: contain;
+  min-height: 200px;
 }
 
 .about .skills-content {
@@ -743,7 +743,7 @@ section {
 }
 
 .vision{
-  font-style: italic;
+  
   margin: 0 auto 15px auto;
   color: #eee;
   display: inline-block;

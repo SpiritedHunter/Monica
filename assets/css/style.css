@@ -601,43 +601,6 @@ section {
   min-height: 200px;
 }
 
-.about .skills-content {
-  margin-top: 30px;
-}
-
-.about .skills-content .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.about .skills-content .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 700;
-  font-family: "Raleway", sans-serif;
-  color: #3b434a;
-}
-
-.about .skills-content .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.about .skills-content .progress-bar-wrap {
-  background: #e6e8eb;
-}
-
-.about .skills-content .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #ffb727;
-}
-
 /* ____________________TEST ABOUT________________________________________ */
 
 #about-me {
@@ -652,7 +615,7 @@ section {
 }
 
 .about-intro-text p {
-	float: right;
+	text-align:justify
 }
 
 .about-intro-text span {
@@ -787,7 +750,7 @@ section {
 .services .icon i {
   font-size: 36px;
   line-height: 1;
-  color: #ffb727;
+  color: #0fc46d;
 }
 
 .services .title {
@@ -1216,7 +1179,7 @@ section {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #ffb727;
+  color: #0fc46d;
   border-radius: 50%;
   padding: 15px;
   background: #fff6e4;
@@ -1408,7 +1371,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ffb727;
+  background: #0fc46d;
   color: #fff;
   line-height: 1;
   padding: 8px 0;

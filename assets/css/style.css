@@ -427,7 +427,7 @@ section {
 .section-title span {
   position: absolute;
   top: 30px;
-  color: #fffdfd;
+  color: #ffffff;
   left: 0;
   right: 0;
   z-index: 1;
@@ -596,14 +596,51 @@ section {
 }
 
 .about .image {
-  background: url("../img/monifeliz.jpg") center center no-repeat;
-  background-size: contain;
-  min-height: 200px;
+  background: url("../img/monifeliz2.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.about .skills-content {
+  margin-top: 30px;
+}
+
+.about .skills-content .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.about .skills-content .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: #3b434a;
+}
+
+.about .skills-content .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.about .skills-content .progress-bar-wrap {
+  background: #e6e8eb;
+}
+
+.about .skills-content .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #ffb727;
 }
 
 /* ____________________TEST ABOUT________________________________________ */
 
-#about-me {
+/* #about-me {
 	margin-top: 20px;
 }
 
@@ -656,7 +693,7 @@ section {
 .textbox-about {
 	-webkit-transition: all 0.7s ease;
 	transition: all 0.7s ease;
-}
+} */
 
 /* ____________________________________________________________ */
 

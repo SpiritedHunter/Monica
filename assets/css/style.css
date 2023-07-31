@@ -364,6 +364,23 @@ h6 {
   }
 }
 
+
+/* Responsive logo size */
+img.logo {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  img.logo {
+    max-width: 100px;
+  }
+}
+
+  
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/

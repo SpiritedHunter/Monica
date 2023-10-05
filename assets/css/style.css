@@ -312,6 +312,8 @@ h6 {
   font-size: 64px;
   font-family: "Satisfy", serif;
   color: #fff;
+  text-align: center;
+  margin: auto;
 }
 
 #hero h2 {
